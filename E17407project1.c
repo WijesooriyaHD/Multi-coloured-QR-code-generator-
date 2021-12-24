@@ -76,7 +76,7 @@ int main(int argc,char *argv[]){   //decleration of command line argument(c.l.a)
                                     
 				   hashStr1=gethashstr(input,25);    //invoke gethashstr function to get pointer ,25 -array size for smaller qr version
 
-				   for(int v=0;v<50;v++){   //move curser down by 50
+				   for(int v=0;v<20;v++){   //move curser down by 50
 					   printf(" \n");
 				   }
 
@@ -131,7 +131,7 @@ int main(int argc,char *argv[]){   //decleration of command line argument(c.l.a)
 
 					 hashStr1=gethashstr(input,133);   //invoke gethashstr function to get pointer , 133-array size for larger qr version
 					 
-					 for(int v=0;v<50;v++){   //move curser down by 50
+					 for(int v=0;v<20;v++){   //move curser down by 50
                                            printf(" \n");
                                          }
 
